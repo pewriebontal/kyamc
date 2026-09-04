@@ -38,7 +38,7 @@
 SRC_DIR=src/
 INCLUDE_DIR=include/
 
-CC		= clang
+CC		= cc
 CFLAGS	= -Wall -Wextra -Werror -I$(INCLUDE_DIR)
 OPTI	= -O3 -march=native -funroll-loops -pipe -ffast-math
 
